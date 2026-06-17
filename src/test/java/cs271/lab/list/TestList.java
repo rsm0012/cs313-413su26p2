@@ -16,7 +16,8 @@ public class TestList {
   @Before
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
-    // TODO Question: Also try with a LinkedList - does it make any difference?
+    // TODO Question: Also try with a LinkedList - does it make any difference? No difference in behavior,
+    // both implement a list interface
   }
 
   @After
